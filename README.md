@@ -8,7 +8,7 @@ Key files:
 - [basic/vae-mxnet.ipynb](basic/vae-mxnet.ipynb)
 
 Results:
-- Sampled generated MNIST figures with 2-D and 20-D latent space
+- Sampled generated MNIST figures with 2-D, 10-D and 20-D latent space
 
 ![](basic/generated_samples_with_2D_latent_space.png)
 ![](basic/generated_samples_with_10D_latent_space.png)
