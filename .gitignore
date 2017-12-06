@@ -99,5 +99,6 @@ archive
 *.gz
 .idea/
 .ipynb_checkpoints/
-.json
-.params
+
+*.params
+basic/*.json
