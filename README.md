@@ -1,8 +1,6 @@
 # Variational autoencoders in MXNet/Gluon
 
-Various implementations of variational autoencoders using MXNet/Gluon.
-
-## Basic implementation
+Implementations of variational autoencoders using MXNet/Gluon.
 
 ### References:
 
@@ -15,9 +13,9 @@ arXiv preprint arXiv:1312.6114 (2013).
 
 ### Code:
 
-- Implementation using MXNet API (i.e. mxnet.sym, mxnet.mod) [vae-mxnet.ipynb](basic/vae-mxnet.ipynb)
-- Implementation using Gluon API (i.e. gluon.HybridBlock, autograd) [vae-gluon.ipynb](basic/vae-gluon.ipynb)
-
+- Implementation using MXNet API (i.e. mxnet.sym, mxnet.mod) [vae-mxnet.ipynb](code/vae-mxnet.ipynb)
+- Implementation using Gluon API (i.e. gluon.HybridBlock, autograd) [vae-gluon.ipynb](code/vae-gluon.ipynb)
+- CNN-based version, implemented using Gluon [vaecnn-gluon.ipynb](code/vaecnn-gluon.ipynb)
 
 ### Results:
 
@@ -25,13 +23,13 @@ arXiv preprint arXiv:1312.6114 (2013).
 
 With 2-D latent space | With 10-D latent space | With 20-D latent space
 --- | --- | ---
-![](basic/generated_samples_with_2D_latent_space.png) | ![](basic/generated_samples_with_10D_latent_space.png) |![](basic/generated_samples_with_20D_latent_space.png)
+![](code/generated_samples_with_2D_latent_space.png) | ![](code/generated_samples_with_10D_latent_space.png) |![](code/generated_samples_with_20D_latent_space.png)
 
 - Learned 2-D manifold
 
 Latent feature Z corresponding to 1000 test images | Generated images from grid scan in Z | 
 --- | ---
-![](basic/2d_latent_space_for_test_samples.png) | ![](basic/2d_latent_space_scan_for_generation.png)
+![](code/2d_latent_space_for_test_samples.png) | ![](code/2d_latent_space_scan_for_generation.png)
 
 
 

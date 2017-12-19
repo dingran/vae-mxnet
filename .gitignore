@@ -101,4 +101,4 @@ archive
 .ipynb_checkpoints/
 
 *.params
-basic/*.json
+code/*.json
